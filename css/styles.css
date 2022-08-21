@@ -1,0 +1,219 @@
+*, *::before, *::after {box-sizing: border-box; margin: 0; padding:0; /*border: solid yellow 1px;*/}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+.title-bg{
+    background-image: url(/images/designs.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.title-content{
+    /* padding-top: 6rem; */
+    text-align: center;
+}
+
+.title-content h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7.5rem;
+    color: white;
+}
+.about a{
+    color: white;
+    transition: color 300ms ease-in;
+    text-decoration: none;
+}
+
+.about a:hover{
+    color: black;
+}
+.title-content p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.subtitle{
+    margin-left: 10px;
+    /* color: black; */
+    text-decoration: underline;
+}
+
+.work{
+    position:absolute;
+    font-family: 'Raleway', sans-serif;
+    right: auto;
+    bottom: 1vh;
+    color: white;
+    animation: fadeInOut 2s ease-in-out infinite;
+    font-size: 1.5rem;
+    opacity: 0;  
+}
+
+.contact{
+    position:absolute;
+    font-family: 'Raleway', sans-serif;
+    right: auto;
+    top: 1vh;
+    color: white;
+    animation: fadeInOut 2s ease-in-out infinite;
+    font-size: 1.5rem;
+    opacity: 0;  
+}
+
+.proj1-content{
+    background-color: #181A1A;
+    padding: 20px;
+    padding-right: 60px;
+    color: white;
+}
+
+.proj1-content h1{
+    color: #9136F7;
+}
+.proj1-content p{
+    text-align: left;
+    font-size: 1rem;
+}
+
+.proj1-content .btn{
+    color: #9136F7;
+}
+.projects .col-lg-6{
+    text-align: center;
+}
+
+.projects h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    text-decoration:underline;
+}
+
+.proj1-img img{
+    height: 85vh;
+    border-radius: 2%;
+}
+
+.proj1-img{
+    background-color: #732BC4;
+    padding: 20px;
+    color: white;
+}
+
+
+.proj2-content{
+    background-color: #EEEEEE;
+    padding: 20px;
+    padding-right: 60px;
+    color: black;
+}
+
+.proj2-content h1{
+    color: #DEA712;
+}
+.proj2-content p{
+    text-align: left;
+    font-size: 1rem;
+}
+.proj2-content .btn{
+    color: #BF900F;
+}
+
+
+.proj2-img img{
+    height: 70vh;
+    width: 90%;
+    border-radius: 2%;
+}
+
+.proj2-img{
+    background-color: #BF900F;
+    padding: 20px;
+    color: white;
+}
+
+.proj3-content{
+    background-color: #181A1A;
+    padding: 20px;
+    padding-right: 60px;
+    color: white;
+}
+
+.proj3-content p{
+    text-align: left;
+    font-size: 1rem;
+}
+
+.proj3-content h1{
+    color: #474FB3;
+}
+
+
+.proj3-img img{
+    margin-top: 15px;
+    height: 125px;
+    width: 125px;
+}
+
+.proj3-img{
+    background-color: #474FB3;
+    padding: 20px;
+    color: white;
+}
+
+.proj3-img p{
+    text-align: left;
+    margin-top: 25px;
+}
+
+form > div {
+    text-align: left;
+    font-size: 1rem;
+}
+.fa-brands{
+    color: white;
+    margin: 20px;
+    transition: all 150ms ease-in;
+}
+
+.fa-brands:hover{
+    color: #181A1A;
+}
+
+@media (max-aspect-ratio: 1276/905) {
+    .row > *{
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+
+@keyframes fadeInOut {
+
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+    }
+    
+}
+
+
+
