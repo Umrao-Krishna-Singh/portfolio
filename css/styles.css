@@ -198,6 +198,11 @@ form > div {
     }
 }
 
+@media (max-width:992px){
+    .proj1-img img{
+        max-width: 90%;
+    }
+}
 
 @keyframes fadeInOut {
 
